@@ -1,0 +1,79 @@
+h1{
+	color: white;
+	font-size: 250%;
+	text-align: left;
+	transform: translate(30%, 150%);
+}
+
+#banner{
+	width: 100%;
+	position: relative;
+}
+
+h2{
+	font-size: 100%;
+	color: 	blue;
+	padding: 20px;
+}
+
+.cards{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+body{
+	font-family: 'Hind Siliguri', sans-serif;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: #008B8B;
+}
+
+li{
+	list-style-type: none;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#topBanner{
+	display: flex;
+}
+
+#logo{
+	width: 30%;
+	height: 100px;
+	transform: translate(10%, 20%);
+}
+
+#logo, h1, #topBanner>h2{
+	position: absolute;
+}
+
+#topBanner>h2{
+	font-size: 150%;
+	color: black;
+	transform: translate(40%, 1000%);
+	background-color: white;
+	padding: 5px;
+	border-radius: 20px;
+}
+
+#place{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#navigationMenu{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+
